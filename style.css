@@ -1,0 +1,9 @@
+body{
+    background: rgb(89, 195, 244);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+}

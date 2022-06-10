@@ -57,4 +57,10 @@ h2{
     padding: 15px;
 }
 
-
+#images-container{
+    background: white;
+    border: solid black 4px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}

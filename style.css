@@ -35,10 +35,26 @@ h2{
 }
 
 .doge{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.bonky{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bonk-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-style: bold;
+    font-size: 20px;
+    padding: 15px;
+}
 
 

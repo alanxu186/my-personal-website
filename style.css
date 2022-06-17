@@ -64,3 +64,23 @@ footer p{
     text-align: center;
     font-size: 25px;
 }
+
+.container{
+    display: flex;
+}
+
+nav{
+    width: 25%;
+}
+
+.shiba-details{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    gap: 40px;
+}
+
+.shiba-details img{
+    width:auto;
+    height:350px;
+}

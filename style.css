@@ -1,66 +1,66 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;    
+    font-weight: bold;
 }
 
 body{
-    background: rgba(230, 147, 91, 0.959);
+    background: rgba(116,126,223,255);
+    background-image: url('https://simpleswap.io/blog/api/files/c7fc10f1-54d9-4f65-81b1-62f7e52c1db1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
-
-p{
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
+h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 25px;
 }
 
 header{
-    text-align: center;
-    margin-bottom: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav {
-    background-color: rgb(237, 205, 169);
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-
-nav a{
-    font-size: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-h2{
-    text-align: center;
-}
-
-.doge{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bonky{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#bonk-button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    border-radius: 20px;
-    font-style: bold;
-    font-size: 20px;
-    padding: 15px;
-}
-
-#images-container{
-    background: white;
-    border: solid black 4px;
+header ul{
     display: flex;
     justify-content: center;
-    padding: 1em;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.about
+{
+    background: #f2b972;
+    color: #2b1055;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 25px;
 }

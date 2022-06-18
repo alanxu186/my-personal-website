@@ -1,6 +1,7 @@
 //code 
-fetch('http://localhost:3000/doges')
-.then(res => console.log(res))
+fetch('http://localhost:3000/doge')
+.then(res => res.json())
+.then(dogeData => renderDogeList(dogeData))
 
 function renderDogeList(doges){
     doges.forEach(doge => {

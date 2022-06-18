@@ -9,6 +9,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    height: 100%;
 }
 h1{
     font-size: 70px;
@@ -55,7 +56,6 @@ header ul li a.about
 footer{
     padding-top: 10px;
     padding-bottom: 0px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -83,4 +83,9 @@ nav{
 .shiba-details img{
     width:auto;
     height:350px;
+}
+
+h5{
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 35px;
 }

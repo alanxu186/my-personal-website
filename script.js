@@ -2,6 +2,9 @@
 fetch('http://localhost:3000/doge')
 .then(res => res.json())
 .then(dogeData => renderDogeList(dogeData))
+.catch (error => {
+    alert(error.message);
+})
 
 function renderDogeList(doges){
     doges.forEach(doge => {
@@ -9,5 +12,13 @@ function renderDogeList(doges){
         const h5 = document.createElement('h5')
         h5.textContent = doge.name
         dogeList.append(h5)
+
+        h5.addEventListener('click', () => renderDogeDetail(doge))
     })
+    renderDogeDetail(doges[0])
+}
+
+function renderDogeDetail(doge) {
+    const dogeImg = document.querySelector('#shiba-image')
+    dogeImg.src = doge.imgUrl
 }

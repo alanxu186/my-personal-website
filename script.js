@@ -3,7 +3,7 @@ fetch('http://localhost:3000/doge')
 .then(res => res.json())
 .then(dogeData => renderDogeList(dogeData))
 .catch (error => {
-    alert(error.message);
+    alert('JSON server not loaded');
 })
 
 function renderDogeList(doges){

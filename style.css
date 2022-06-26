@@ -51,6 +51,7 @@ header ul li a.about
 {
     background: #f2b972;
     color: #2b1055;
+    transition: all 0.5s ease;
 }
 
 footer{
